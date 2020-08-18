@@ -1,15 +1,15 @@
 {
-  "name": "node-express-template",
+  "name": "@devtarun/node-express-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "A starter template for creating server using Node, Express, Mongoose",
   "main": "www/server.js",
   "scripts": {
     "start": "node www/server.js",
     "dev": "nodemon www/server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["node", "express", "mongoose", "server", "template"],
+  "author": "Tarun",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
@@ -19,5 +19,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devtarun/node_express_async_template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devtarun/node_express_async_template/issues"
+  },
+  "homepage": "https://github.com/devtarun/node_express_async_template#readme"
 }
